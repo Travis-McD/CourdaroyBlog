@@ -1,106 +1,67 @@
+<!--i left off at bootstrap grid  https://learn.nucamp.co/mod/book/view.php?id=2490&chapterid=3102-->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-     <!-- Required meta tags always come first -->
-     <meta charset="utf-8" />
-     <meta name="viewport" content="width=device-width, initial-scale=1" />
- 
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
- 
-     <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
 
-     <title>East Coast Courdaroy</title>
+    <title>East Coast Courduroy</title>
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
+        <div class="overlay"></div>
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>East Coast Courdaroy</h1>
-                    <h2>Mashed Potatoes and Yard Sales</h2>
-                </div>
+            <div class="description ">
+                <h1>East Coast Courduroy
+                    <p>Mashed Potatoes and Yard sales</p>
+                    <!-- <button class="btn btn-outline-secondary btn-lg">not sure if im going to use button</button></h1> -->
+                    <h2></h2>
             </div>
         </div>
     </header>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 col-md-3">
-                <h2>For the Newbies</h2>
-            </div>
-            <div class="col">
-                <h3>Start with the Basics</h3>
-                <p>Get a ride to your local resort, get some rentals and take a beginner lesson</p>
-            </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand" href="#">Home</a>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="#">About</a></li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="portfolio" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="blog" href="#">Blog</a></li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="team" href="#">Team</a></li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="contact" href="#">Contact</a></li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="row">
-            <div class="col-sm-4 col-md-3">
-                <h2>Important Gear</h2>
-            </div>
-            <div class="col">
-                <h3>Boards, Boots, Goggles and Clothing</h3>
-        		<p>Being prepared for your day on the slopes is vital to the amount of time you can spend sliding.</p>
-   			</div>
-        </div>
 
-        <div class="row">
-            <div class="col-sm-4 col-md-3">
-                <h2>Your Responsibility Code</h2>
-            </div>
-            <div class="col">
-                <h3>seven points of Your Responsibility Code are:</h3>
-        		<p>Always stay in control, and be able to stop or avoid other people or objects.
-                    People ahead of you have the right of way. It is your responsibility to avoid them.
-                    You must not stop where you obstruct a trail, or are not visible from above.
-                    Whenever starting downhill or merging into a trail, look uphill and yield to others.
-                    Always use devices to help prevent runaway equipment.
-                    Observe all posted signs and warnings. Keep off closed trails and out of closed areas.
-                    Prior to using any lift, you must have the knowledge and ability to load, ride and unload safely.</p>
-            </div>
-        </div>
-    </div>
     <footer>
-        <footer>
-            <div class="container">
-                <div class="row">             
-                    <div class="col-4 col-sm-2">
-                        <h5>Links</h5>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-sm-5">
-                        <h5>Social</h5>
-                        <a href="http://instagram.com/">Instagram</a>
-                        <a href="http://facebook.com/">Facebook</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                    </div>
-                    <div class="col-sm-4">
-                        Tel.: 1-434-826-9793<br />
-                        Email: mcdt777@gmail.com
-                    </div>                
-               </div>
-            </div>
-        </footer>
+
     </footer>
 
-    
+
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script type="text/javascript" src='js/main.js'></script>
 
 </body>
 
