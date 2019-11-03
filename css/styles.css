@@ -1,6 +1,7 @@
 body {
     
     font-family: "Open Sans", cursive;
+    background-color: rgb(236, 234, 234);
 }
 
 h1, h2, h3 {
@@ -17,7 +18,7 @@ header h2 {
 }
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(rgb(255, 200, 200), white);
     padding: 20px 0;
 }
 
