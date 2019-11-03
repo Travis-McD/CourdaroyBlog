@@ -1,7 +1,7 @@
 body {
     
     font-family: "Open Sans", cursive;
-    background-color: rgb(236, 234, 234);
+    background-color: lightgray;
 }
 
 h1, h2, h3 {
@@ -10,26 +10,31 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: salmon;
+    color: blue;
 }
 
 header h2 {
-    color: greenyellow;
+    color: crimson;
 }
 
 footer {
-    background-image: linear-gradient(rgb(255, 200, 200), white);
+    background-image: linear-gradient(rgb(255, 200, 200), rgb(155, 2, 2));
     padding: 20px 0;
 }
 
 .jumbotron{
 	background-image: url("images/groomsnow.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    margin: 0;
 } 
 
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.navbar{
+    background-color: crimson;
 }
