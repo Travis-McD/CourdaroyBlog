@@ -10,11 +10,11 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: greenyellow;
+    color: salmon;
 }
 
 header h2 {
-    color: salmon;
+    color: greenyellow;
 }
 
 footer {
